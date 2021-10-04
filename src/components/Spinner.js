@@ -46,7 +46,7 @@ const [spinnerOn, setSpinnerOn] = useState(true);
 
 
   const toggleSpinner = () => {
-  
+    setSpinnerOn(!spinnerOn)
   };
 
   return (
